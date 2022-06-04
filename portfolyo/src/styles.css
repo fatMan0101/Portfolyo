@@ -1,0 +1,41 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+*{
+  padding: 0;
+  margin: 0;
+}
+.bold{
+  font-size: 20px;
+  font-weight: 900;
+}
+a ,a:hover{
+ text-decoration: none;
+ color: white;
+}
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+body::-webkit-scrollbar-track
+{
+
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+
+	background-color: #555;
+}
+
+
+

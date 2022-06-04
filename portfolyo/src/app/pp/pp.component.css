@@ -1,0 +1,73 @@
+.pp{
+  margin: 200px;
+  margin-top: 150px;
+  width: 400px;
+  height: 400px;
+  background-image: url(/assets/img/main.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+  clip-path: polygon(0 6%, 47% 0, 100% 45%, 98% 89%, 13% 72%);
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media screen and (max-width:1440px){
+  .pp{
+    margin-left: 170px;
+    margin-right: 140px;
+  }
+}
+@media screen and (max-width:1140px){
+  .pp{
+    margin-left: 50px;
+  }
+}
+@media screen and (max-width:1024px){
+  .pp{
+    margin-left: 40px;
+    width: 350px;
+    height: 350px;
+  }
+}
+@media screen and (max-width:969px){
+  .pp{
+    margin-left: 40px;
+    margin-right: 100px;
+  }
+}
+@media screen and (max-width:768px){
+  .pp{
+    margin: 0px;
+    margin-left: 28%;
+    margin-top: 5vh;
+    width: 300px;
+    height: 300px;
+  }
+}
+@media screen and (max-width:425px){
+  .pp{
+    margin: 0px;
+    margin-left: 13%;
+    margin-top: 3vh;
+    width: 300px;
+    height: 300px;
+  }
+}
+@media screen and (max-width:375px){
+  .pp{
+    margin: 0px;
+    margin-left: 12%;
+    margin-top: 3vh;
+    width: 270px;
+    height: 270px;
+  }
+}
+@media screen and (max-width:320px){
+  .pp{
+    margin: 0px;
+    margin-left: 13%;
+    margin-top: 3vh;
+    width: 250px;
+    height: 250px;
+  }
+}
